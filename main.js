@@ -1,6 +1,6 @@
 /** Connect to Moralis server */
-const serverUrl = "https://tyccwixjm9vk.usemoralis.com:2053/server";
-const appId = "hRCvCNdl19ZNxWbcdlCu0yKdFwnMnTr6Y4Kzdjux";
+const serverUrl = "";
+const appId = "";
 
 Moralis.start({ serverUrl, appId });
 let user = Moralis.User.current();
